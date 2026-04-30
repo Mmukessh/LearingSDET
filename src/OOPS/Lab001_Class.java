@@ -8,6 +8,7 @@ public class Lab001_Class {
         p.address="Mumbai";
         p.mobile=987654321;
 
+
         System.out.println(p.name);
         System.out.println(p.address);
         System.out.println(p.mobile);
@@ -22,6 +23,7 @@ class person {
     String name;
     String address;
     long mobile;
+    String gender;
 
     void speak()
     {

@@ -27,6 +27,35 @@ public class Lab024_Calculator {
                     System.out.println("Invalid Option");
                     System.exit(0);
                 }
+                else {
+                    switch (choice){
+
+                        case 1:
+                           int result_Sum= sum(3,4);
+                            System.out.println(result_Sum);
+                            break;
+
+                        case 2:
+                            int result_sub= sub(4,3);
+                            System.out.println(result_sub);
+                            break;
+
+                        case 3:
+                            int result_multi=multi(3,4);
+                            System.out.println(result_multi);
+                            break;
+
+                        case 4:
+                            int result_div=div(10,5);
+                            System.out.println(result_div);
+                            break;
+
+                        case 5:
+                            System.out.println("Thank you using calculator !!!");
+                            System.exit(0);
+
+                    }
+                }
 
         }
         else {
@@ -34,16 +63,28 @@ public class Lab024_Calculator {
             System.exit(0);
         }
 
-        switch (choice){
 
-            case 1:
-
-            
-        }
     }
 
     public static int sum(int a,int b)
     {
         return (a+b);
     }
+
+    public static int sub(int a,int b)
+    {
+        return (a-b);
+    }
+
+    public static int multi(int a,int b)
+    {
+        return (a*b);
+    }
+
+    public static int div(int a,int b)
+    {
+        return (a/b);
+    }
+
+
 }

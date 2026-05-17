@@ -1,10 +1,12 @@
 package JAVA;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Lab028_Bank {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
+        ArrayList<Bank> accounts=new ArrayList<>();
         System.out.println("Enter account holder name");
         String accholdername=scanner.nextLine();
 
